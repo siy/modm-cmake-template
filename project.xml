@@ -1,0 +1,15 @@
+<library>
+  <extends>modm:board:blue-pill</extends>
+
+  <repositories>
+    <repository><path>libs/modm/repo.lb</path></repository>
+  </repositories>
+  <options>
+    <option name=":build:build.path">./</option>
+    <!-- option name=":build:project.name">blink</option -->
+  </options>
+
+  <modules>
+    <module>:build:cmake</module>
+  </modules>
+</library>

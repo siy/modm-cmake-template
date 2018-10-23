@@ -1,0 +1,3 @@
+[submodule "libs/modm"]
+	path = libs/modm
+	url = git@github.com:siy/modm.git
