@@ -10,6 +10,8 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 
+project.xml.log
+
 ### C++ template
 # Prerequisites
 *.d
@@ -54,7 +56,7 @@ CTestTestfile.cmake
 
 # CMake
 cmake-build-*/
-#libs/modm/
+modm/
 
 # File-based project format
 *.iws
